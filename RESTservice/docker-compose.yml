@@ -1,0 +1,11 @@
+version: '1'
+
+services: 
+	servpublicos:
+		build: ./GLASSFISHDOCKER
+		volumes:
+		 - ./GLASSFISHDOCKER:$GLASSFISH_HOME/glassfish/domains/domain1/autodeploy
+		ports: 
+		 - 6060:8080
+
+	

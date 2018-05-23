@@ -1,0 +1,34 @@
+2018-05-21 23:06:08,680 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../conf/zoo.cfg
+2018-05-21 23:06:08,695 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2018-05-21 23:06:08,695 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2018-05-21 23:06:08,695 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2018-05-21 23:06:08,696 [myid:] - WARN  [main:QuorumPeerMain@116] - Either no config or no quorum defined in config, running  in standalone mode
+2018-05-21 23:06:08,718 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../conf/zoo.cfg
+2018-05-21 23:06:08,719 [myid:] - INFO  [main:ZooKeeperServerMain@98] - Starting server
+2018-05-21 23:06:08,731 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.12-e5259e437540f349646870ea94dc2658c4e44b3b, built on 03/27/2018 03:55 GMT
+2018-05-21 23:06:08,731 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=rafael-Dell-System-XPS-L502X
+2018-05-21 23:06:08,731 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_171
+2018-05-21 23:06:08,731 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2018-05-21 23:06:08,732 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+2018-05-21 23:06:08,732 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../build/classes:/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../build/lib/*.jar:/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../lib/slf4j-log4j12-1.7.25.jar:/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../lib/slf4j-api-1.7.25.jar:/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../lib/netty-3.10.6.Final.jar:/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../lib/log4j-1.2.17.jar:/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../lib/jline-0.9.94.jar:/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../lib/audience-annotations-0.5.0.jar:/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../zookeeper-3.4.12.jar:/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../src/java/lib/*.jar:/home/rafael/Escritorio/BANCARIOS/zookeeper/zookeeper-3.4.12/bin/../conf:
+2018-05-21 23:06:08,732 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2018-05-21 23:06:08,732 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2018-05-21 23:06:08,732 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2018-05-21 23:06:08,733 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2018-05-21 23:06:08,733 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2018-05-21 23:06:08,734 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=4.13.0-41-generic
+2018-05-21 23:06:08,734 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=root
+2018-05-21 23:06:08,734 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/root
+2018-05-21 23:06:08,734 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/rafael/Escritorio/BANCARIOS/bin
+2018-05-21 23:06:08,761 [myid:] - INFO  [main:ZooKeeperServer@835] - tickTime set to 2000
+2018-05-21 23:06:08,761 [myid:] - INFO  [main:ZooKeeperServer@844] - minSessionTimeout set to -1
+2018-05-21 23:06:08,761 [myid:] - INFO  [main:ZooKeeperServer@853] - maxSessionTimeout set to -1
+2018-05-21 23:06:08,809 [myid:] - INFO  [main:ServerCnxnFactory@117] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2018-05-21 23:06:08,847 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2018-05-21 23:06:13,302 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:53486
+2018-05-21 23:06:13,347 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@948] - Client attempting to establish new session at /127.0.0.1:53486
+2018-05-21 23:06:13,349 [myid:] - INFO  [SyncThread:0:FileTxnLog@213] - Creating new log file: log.2d7
+2018-05-21 23:06:13,556 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@693] - Established session 0x10000346e940000 with negotiated timeout 6000 for client /127.0.0.1:53486
+2018-05-21 23:06:16,349 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x10000346e940000 type:create cxid:0x75 zxid:0x2db txntype:-1 reqpath:n/a Error Path:/brokers Error:KeeperErrorCode = NodeExists for /brokers
+2018-05-21 23:06:16,349 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x10000346e940000 type:create cxid:0x76 zxid:0x2dc txntype:-1 reqpath:n/a Error Path:/brokers/ids Error:KeeperErrorCode = NodeExists for /brokers/ids
+2018-05-21 23:06:16,594 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x10000346e940000 type:delete cxid:0xe9 zxid:0x2de txntype:-1 reqpath:n/a Error Path:/admin/preferred_replica_election Error:KeeperErrorCode = NoNode for /admin/preferred_replica_election

@@ -1,0 +1,5 @@
+version: '2'
+
+services:
+  product_service:
+    build: ./product

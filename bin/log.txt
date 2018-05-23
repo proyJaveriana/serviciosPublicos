@@ -1,0 +1,7 @@
+Starting zookeeper ... already running as process 11364.
+Starting zookeeper ... already running as process 11364.
+Starting zookeeper ... STARTED
+Starting zookeeper ... STARTED
+Starting zookeeper ... already running as process 6669.
+Starting zookeeper ... STARTED
+Starting zookeeper ... STARTED
