@@ -1,0 +1,15 @@
+#%RAML 1.0
+uses:
+  key:
+title: My API
+mediaType:  txt/html
+documentation:
+  - title: Servicios
+    content: |
+      Permite alcanzar el servicio que permitira realizar pagos, consultas y compensaciones de servicios, (gas, agua, luz, telefono)
+version: 1
+protocols: [ HTTP , HTTPS ]
+baseUri: http://localhost:8080/servicios/v1/public/{codigo}
+baseUriParameters:
+      codigo:
+        description: Permite registrar el codigo que condensa actividad|id_factura|servicio|monto

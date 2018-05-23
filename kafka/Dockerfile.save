@@ -1,0 +1,7 @@
+FROM spotify/kafka
+
+export KAFKA=`docker-machine ip \`docker-machine active\``:9092
+export KAFKA=`docker-machine ip \`docker-machine active\``:9092
+
+
+RUN /opt/kafka/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test

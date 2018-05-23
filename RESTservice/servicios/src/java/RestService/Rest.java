@@ -43,17 +43,16 @@ public class Rest {
 
     String Respuesta="";    
     String salida=validaCodigo(path);
-    if(salida.equals(OK)){        
-      Productor p= new Productor();    
-      p.producir(path);
-      Consumer c= new Consumer();
-      Respuesta=c.consumirMsg();
+
+     if(salida.equals(OK)){        
+     Productor p= new Productor();    
+     p.producir(path);
+     Consumer c= new Consumer();
+     Respuesta=c.consumirMsg();
     }
-    //return validaCodigo(path);
-      return salida;     
     
-    //return Respuesta;
-    
+
+    return salida;
     }
 
     

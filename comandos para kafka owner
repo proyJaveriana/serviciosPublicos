@@ -1,0 +1,41 @@
+RUN sudo apt-get update
+RUN apt-get install oracle-java8-installer -y
+RUN sudo mkdir -p /data/zookeeper
+RUN sudo chown -R hadoop:hadoop /data
+RUN cd /opt
+RUN sudo wget http://apache.is.co.za/zookeeper/zookeeper-3.4.9/zookeeper-3.4.9.tar.gz
+RUN sudo tar -xvf zookeeper-3.4.9.tar.gz
+RUN chown hadoop:hadoop -R  zookeeper-3.4.9
+RUN su hadoop
+RUN bash -c "cat > /opt/zookeeper-3.4.9/conf/zoo.cfg <<EOL
+    tickTime=2000
+    dataDir=/data/zookeeper
+    clientPort=2181   
+    initLimit=5
+    syncLimit=2
+    server.1=master:2888:3888
+    server.2=slave1:2888:3888
+    server.3=slave2:2888:3888
+    EOL"
+RUN bash -c “echo ‘1’ >> /data/zookeeper/myid”
+
+RUN bash /opt/zookeeper-3.4.9/bin/zkServer.sh start
+
+RUN sudo apt-get install zookeeperd
+
+RUN wget http://mirror.fibergrid.in/apache/kafka/0.10.0.1/kafka_2.10-0.10.0.1.tgz
+
+RUN sudo mkdir /opt/kafka
+RUN cd /opt/kafka
+RUN sudo tar -xvf kafka_2.10-0.10.0.1.tgz -C /opt/Kafka/
+RUN sudo nohup /opt/Kafka/kafka_2.10-0.10.0.1/bin/kafka-server-start.sh /opt/Kafka/kafka_2.10-0.10.0.1/config/server.properties /tmp/kafka.log 2>&1 &
+RUN sudo /opt/Kafka/kafka_2.10-0.10.0.1/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1  --partitions 1 --topic test
+
+
+
+
+
+
+
+
+

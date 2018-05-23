@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  serviciospublicos:
+     image: rafaelreyes/serviciospublicos
+     build: ./serviciospublicos
+     hostname: service
+     ports:
+       - 8080:8080
+     volumes:
+       - .:/code/serviciospublicos     

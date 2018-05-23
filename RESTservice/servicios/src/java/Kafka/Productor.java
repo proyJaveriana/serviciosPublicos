@@ -23,10 +23,10 @@ public class Productor{
     
         Properties props = new Properties();
         //props.put("zk.connect", "localhost:2181");
-        props.put("zk.connect", "172.17.0.1:2181");
+        props.put("zk.connect", "localhost:2181");
         props.put("serializer.class","kafka.serializer.StringEncoder");
         //props.put("metadata.broker.list", "localhost:9092");
-        props.put("metadata.broker.list", "172.17.0.1:9092");
+        props.put("metadata.broker.list", "localhost:9092");
         ProducerConfig config = new ProducerConfig(props);
         
         Producer producer = new Producer(config);

@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  kafka_service:
+     image: spotify/kafka
+     hostname: kafka
+     ports:
+       - 2181:2181
+       - 9092:9092
+  servicios_publicos:
+     build: /home/rafael/Escritorio/BANCARIOS/RESTservice
+     hostname: service
+     ports:
+       - 8080:8080
+     depends_on:
+       - kafka_service
+     links:
+       - kafka_service 
