@@ -1,0 +1,7 @@
+>KAFKA se encuentra instalado en /opt
+> el programa se encuentra en el directorio RESTservice
+> el directorio bin contiene shells de subida de servicios en la maquina local, no docker
+> docker-build es una prueba de subida de un docker con docker compose
+> zookeeper contiene el programa zookeeper en caso de requerirlo
+> router quedo para que se pueda guardar el router realizado
+
